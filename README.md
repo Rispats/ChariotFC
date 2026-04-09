@@ -8,3 +8,5 @@
 - **Power Distrubution Board:** 2S-4S LiPo (Currently working on upgrading to 6S)
 - **From Factor:** 30.5mm X 30.5mm Dual stack (FC + PDB)
 - **Target Firmware:** PX4, Betaflight
+
+STATUS: Schematic design in progress
