@@ -4531,7 +4531,9 @@
 		(at 52.07 117.094 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 		)
 		(uuid "76428585-45c4-4141-a244-7b4b62251b27")
@@ -4541,17 +4543,41 @@
 		(at 60.706 17.78 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 		)
 		(uuid "95835a9a-909a-4077-a810-c80d14824be3")
 	)
-	(text "ESC"
+	(text "The TIMEPULSE pin (Pin 7) outputs a 1 pulse per second (1PPS) signal once a fix is acquired.\n Before fix it is typically silent (no pulse)."
 		(exclude_from_sim no)
-		(at 232.156 19.558 0)
+		(at 239.268 104.14 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5432c84-bbb4-4087-9a42-1e5eece49e0d")
+	)
+	(text "TIMEPULSE can only source/sink 2mA."
+		(exclude_from_sim no)
+		(at 237.236 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af07038c-119a-449e-a62d-7e681ac91212")
+	)
+	(text "ESC"
+		(exclude_from_sim no)
+		(at 233.934 17.272 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 		)
 		(uuid "b61bfcdc-e47a-4371-b2cf-6e7249c5fe9b")
@@ -4561,7 +4587,9 @@
 		(at 150.876 18.542 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 		)
 		(uuid "ca969fea-cea2-41e4-8743-1f896f6cfe0a")
@@ -4571,7 +4599,9 @@
 		(at 104.394 117.856 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 		)
 		(uuid "de2645e8-686a-4dad-bc63-c7cf0c9df09c")
@@ -4581,7 +4611,9 @@
 		(at 140.462 118.364 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 		)
 		(uuid "e80169c4-8f62-4024-802b-82ca904b8a05")
@@ -4591,7 +4623,9 @@
 		(at 83.566 67.056 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 		)
 		(uuid "f491167f-4269-4f20-8f3e-f00eb38dbdfc")
@@ -4603,10 +4637,22 @@
 		(uuid "00e7f7b1-38ae-445a-b7b7-a428e669ed52")
 	)
 	(junction
+		(at 267.97 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0639c321-5645-4f30-8d2c-79c0157e30d3")
+	)
+	(junction
 		(at 185.42 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1695d9a3-7678-460a-b969-59110aa697b4")
+	)
+	(junction
+		(at 228.6 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25e1091a-df68-452a-ac64-239abcc22d2d")
 	)
 	(junction
 		(at 38.1 82.55)
@@ -4663,6 +4709,18 @@
 		(uuid "5a3fa508-2806-41b5-8abf-496ccf97644e")
 	)
 	(junction
+		(at 218.44 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b537ef9-3aca-4b91-bbaf-a17548ebe899")
+	)
+	(junction
+		(at 269.24 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e03a481-64a1-4fa8-92ea-4d9c3beafce6")
+	)
+	(junction
 		(at 40.64 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4711,6 +4769,24 @@
 		(uuid "963ad87e-8898-4988-a626-278002a66bcf")
 	)
 	(junction
+		(at 276.86 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e16274-e0fc-4b1b-9d29-4ee52560e355")
+	)
+	(junction
+		(at 218.44 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a848929f-3037-4d94-a189-dc8afd333bf5")
+	)
+	(junction
+		(at 218.44 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b437515e-af90-490d-8a0f-660c2597e098")
+	)
+	(junction
 		(at 48.26 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4721,6 +4797,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c16f9163-6112-4590-add7-d7305e7e45d8")
+	)
+	(junction
+		(at 224.79 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4a6399d-17ad-4432-9043-1e7cbe24e16c")
 	)
 	(junction
 		(at 33.02 96.52)
@@ -4765,8 +4847,20 @@
 		(uuid "0e2271c5-1140-4d5a-bbc0-85e0c7694912")
 	)
 	(no_connect
+		(at 266.7 88.9)
+		(uuid "11693e42-dee0-4fe2-afaa-6c2dcd85268e")
+	)
+	(no_connect
+		(at 266.7 71.12)
+		(uuid "23b4f0be-3285-401c-85de-7be5606a6101")
+	)
+	(no_connect
 		(at 82.55 34.29)
 		(uuid "76b8346e-7ec7-4698-91d8-b8f63d47ed2d")
+	)
+	(no_connect
+		(at 228.6 86.36)
+		(uuid "8089173c-1433-4161-8bbf-3bd9ba837e40")
 	)
 	(no_connect
 		(at 36.83 46.99)
@@ -4779,6 +4873,20 @@
 	(no_connect
 		(at 36.83 44.45)
 		(uuid "ecbf7a1f-0b34-4f8c-8bc6-369f4c32d5b5")
+	)
+	(no_connect
+		(at 228.6 88.9)
+		(uuid "f1a1eef8-cd96-42fe-bb13-d1a71152fadd")
+	)
+	(wire
+		(pts
+			(xy 224.79 71.12) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06200b9d-ede9-4e8f-87a7-fcae9a6e19c7")
 	)
 	(wire
 		(pts
@@ -4802,6 +4910,36 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 81.28) (xy 267.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1364fc1d-095c-4a9d-abe5-e488f79a036f")
+	)
+	(wire
+		(pts
+			(xy 266.7 81.28) (xy 267.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13af80ff-3362-4be0-9a83-0a7b36749438")
+	)
+	(wire
+		(pts
+			(xy 218.44 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f0315f-7f1a-4d41-a1b6-ffade8b53073")
+	)
+	(wire
+		(pts
 			(xy 40.64 125.73) (xy 40.64 130.81)
 		)
 		(stroke
@@ -4809,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "156dbc8a-c43e-46f2-8695-9d325de34ae9")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1808ac44-63e7-44e1-8560-c275234c3ca1")
 	)
 	(wire
 		(pts
@@ -4852,6 +5000,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 77.47) (xy 269.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2055ea32-908a-4e49-a989-a673907e1f20")
+	)
+	(wire
+		(pts
 			(xy 90.17 46.99) (xy 90.17 49.53)
 		)
 		(stroke
@@ -4872,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 76.2) (xy 266.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b07c95c-118c-4978-a3d9-927bafcf1f2d")
+	)
+	(wire
+		(pts
 			(xy 137.16 101.6) (xy 144.78 101.6)
 		)
 		(stroke
@@ -4879,6 +5047,16 @@
 			(type default)
 		)
 		(uuid "326220e7-d595-48d2-adbb-44a5468403fa")
+	)
+	(wire
+		(pts
+			(xy 218.44 92.71) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330f1508-7215-4669-8f68-ee9245d99d0a")
 	)
 	(wire
 		(pts
@@ -4899,6 +5077,16 @@
 			(type default)
 		)
 		(uuid "40bc4405-34fd-4fc6-b969-050624dc4eec")
+	)
+	(wire
+		(pts
+			(xy 218.44 91.44) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ebda71-a461-4f9f-acc8-6aeef8b1ec89")
 	)
 	(wire
 		(pts
@@ -4932,6 +5120,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 76.2) (xy 269.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463079b8-2f62-4092-a3a5-be9f7ebee2b1")
+	)
+	(wire
+		(pts
 			(xy 171.45 34.29) (xy 171.45 35.56)
 		)
 		(stroke
@@ -4939,6 +5137,16 @@
 			(type default)
 		)
 		(uuid "4749e5cd-137b-4a5f-bc46-73a6d1a4f832")
+	)
+	(wire
+		(pts
+			(xy 228.6 73.66) (xy 224.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476c6785-31c5-49ce-85ab-41dbe8854f9a")
 	)
 	(wire
 		(pts
@@ -4969,6 +5177,26 @@
 			(type default)
 		)
 		(uuid "4e6822be-e4de-4b92-9d71-ebe94f0aaba1")
+	)
+	(wire
+		(pts
+			(xy 266.7 73.66) (xy 275.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec2aea9-516d-4c0a-ac5f-e9a769e1d088")
+	)
+	(wire
+		(pts
+			(xy 278.13 80.01) (xy 276.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573604e7-b299-44dd-aa1f-d45832bfc903")
 	)
 	(wire
 		(pts
@@ -5019,6 +5247,16 @@
 			(type default)
 		)
 		(uuid "6645348d-fd63-42bc-b452-06a1068fef4b")
+	)
+	(wire
+		(pts
+			(xy 224.79 73.66) (xy 224.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b6bbab-0e8f-431d-b8fd-d81f4d1f554d")
 	)
 	(wire
 		(pts
@@ -5079,6 +5317,16 @@
 			(type default)
 		)
 		(uuid "7d884e14-c111-476f-8d2d-4e57a0346fa1")
+	)
+	(wire
+		(pts
+			(xy 267.97 78.74) (xy 267.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de71924-f3e5-4497-b537-65fc89e7f722")
 	)
 	(wire
 		(pts
@@ -5192,6 +5440,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 77.47) (xy 276.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef5669e-75c2-4953-a167-96fa28506b6e")
+	)
+	(wire
+		(pts
 			(xy 107.95 48.26) (xy 120.65 48.26)
 		)
 		(stroke
@@ -5229,6 +5487,16 @@
 			(type default)
 		)
 		(uuid "a91ab829-5b38-4a70-a00f-2e2df366831d")
+	)
+	(wire
+		(pts
+			(xy 266.7 78.74) (xy 267.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4176d6-9e67-43ca-b282-d2fc3b4eb7fa")
 	)
 	(wire
 		(pts
@@ -5289,6 +5557,16 @@
 			(type default)
 		)
 		(uuid "cb5de4d5-997d-47f9-a348-1f2ef02050a4")
+	)
+	(wire
+		(pts
+			(xy 228.6 81.28) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3c7276-74f9-41db-be3d-fd5ff00d795a")
 	)
 	(wire
 		(pts
@@ -5402,6 +5680,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 80.01) (xy 267.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea49baea-841f-41bb-9abc-4914c08f7246")
+	)
+	(wire
+		(pts
 			(xy 52.07 137.16) (xy 58.42 137.16)
 		)
 		(stroke
@@ -5442,6 +5730,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 71.12) (xy 224.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeab634d-c27c-411f-b7f5-03203258b670")
+	)
+	(wire
+		(pts
 			(xy 180.34 39.37) (xy 185.42 39.37)
 		)
 		(stroke
@@ -5472,6 +5770,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 71.12) (xy 218.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f742bf-be4b-4a89-9e62-bcef0ac1be4c")
+	)
+	(wire
+		(pts
 			(xy 107.95 48.26) (xy 107.95 35.56)
 		)
 		(stroke
@@ -5489,6 +5797,16 @@
 			(type default)
 		)
 		(uuid "f8ae558d-af24-4b4e-82fe-1feb7b3a8cbb")
+	)
+	(wire
+		(pts
+			(xy 228.6 91.44) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f944f9be-b0e1-4aac-8cd4-ebca2e1bf3f2")
 	)
 	(wire
 		(pts
@@ -5528,6 +5846,28 @@
 					(size 0.762 0.762)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_RX"
+		(shape input)
+		(at 266.7 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "20509241-8b24-4d24-8701-cce713b33459")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.7911 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5752,6 +6092,28 @@
 			)
 		)
 	)
+	(global_label "GPS_LOCK"
+		(shape input)
+		(at 228.6 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "78eca52a-9866-422a-8b75-6eec3fe3a3ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.2995 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 36.83 31.75 180)
@@ -5790,6 +6152,28 @@
 			(effects
 				(font
 					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_TX"
+		(shape input)
+		(at 266.7 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "c713c613-4904-4a0a-b493-25cda01eb704")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.6399 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
@@ -6609,7 +6993,7 @@
 			(at 247.65 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -6617,7 +7001,7 @@
 			(at 247.65 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -6625,7 +7009,7 @@
 			(at 247.65 99.06 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -6634,7 +7018,7 @@
 			(at 247.65 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -6643,7 +7027,7 @@
 			(at 247.65 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -6652,7 +7036,7 @@
 			(at 247.65 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -6788,6 +7172,72 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29310290-fe70-4a47-8333-c2cccdcfd72e")
+		(property "Reference" "#PWR087"
+			(at 278.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50bf382-cc6e-4594-9540-018067ca5a01")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7371,6 +7821,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 228.6 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a873d98-6933-4acf-a44f-e5efd1c7c402")
+		(property "Reference" "#PWR084"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae6f66e-aec3-4d9e-a04d-7a14bb47a7c3")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 241.3 46.99 90)
 		(unit 1)
@@ -7669,6 +8186,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4be324c9-4079-44ee-8c2c-bf410175fb69")
+		(property "Reference" "#PWR083"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0e8da19-30f1-4571-90b0-034ce4afa68d")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 113.03 134.62 270)
 		(unit 1)
@@ -7862,6 +8445,72 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 271.78 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e497d02-2c34-4702-a23c-eadb6e7cc3e5")
+		(property "Reference" "#PWR085"
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SENSORS"
+			(at 265.938 74.676 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f78dac2e-b3b9-49ee-b439-b02588facd1e")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8090,6 +8739,202 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
+		(at 218.44 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62d8fcfe-9e82-46b2-8bdd-379b8eea8a6a")
+		(property "Reference" "C32"
+			(at 220.218 76.454 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 220.218 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 216.662 74.93 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "20208285"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "16V"
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb7d2619-d3ad-4d02-8d98-5d4ce10b7b3e")
+		)
+		(pin "1"
+			(uuid "58f95b0f-f623-4211-8258-843be3044765")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:XL-0603QYGC")
 		(at 173.99 69.85 0)
 		(unit 1)
@@ -8161,6 +9006,73 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "636c5867-7811-4e8a-a525-1be6e3410698")
+		(property "Reference" "#PWR086"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb352192-82c2-426e-88db-ccd46d3ea54c")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8580,6 +9492,72 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 210.82 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eae316c-46fa-4029-8805-a1e0dff8ab00")
+		(property "Reference" "#PWR082"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SENSORS"
+			(at 206.502 67.564 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba744de2-10df-41d0-9b6e-1ccce861bb9a")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9474,6 +10452,202 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
+		(at 273.05 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "940b58f5-2276-45c2-8b01-b48f261cc9d7")
+		(property "Reference" "C37"
+			(at 275.844 76.708 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 275.844 78.74 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 273.05 79.248 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "20208285"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "16V"
+			(at 275.59 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ba254eb-8eed-4b32-bb31-a720b71dadf3")
+		)
+		(pin "1"
+			(uuid "c4cffc9e-2097-4042-baae-2f9615be92fe")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -11941,6 +13115,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 283.21 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2bad79b-f84a-4232-90a9-7971392d80e3")
+		(property "Reference" "#PWR089"
+			(at 283.21 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SENSORS"
+			(at 278.892 70.104 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 283.21 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1561d0ea-2065-4d0d-98b7-94179a9913ea")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 138.43 146.05 270)
 		(unit 1)
@@ -12002,6 +13242,227 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
+		(at 279.4 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f08cd86d-0d40-4c19-9540-bef056ad73df")
+		(property "Reference" "R5"
+			(at 277.368 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 279.4 73.66 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 279.4 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "24372091"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 279.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9eb047c5-fad9-41a0-900c-c42380d51c25")
+		)
+		(pin "1"
+			(uuid "4db6cd05-2cf2-48ce-b895-ba3aa83a59d4")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12529,6 +13990,72 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff6fd116-f576-4793-8988-2286922e2e25")
+		(property "Reference" "#PWR088"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d16317f-6425-49fb-a48f-bc4ef6bd0124")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
