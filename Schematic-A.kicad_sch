@@ -4552,7 +4552,7 @@
 	)
 	(text "The TIMEPULSE pin (Pin 7) outputs a 1 pulse per second (1PPS) signal once a fix is acquired.\n Before fix it is typically silent (no pulse)."
 		(exclude_from_sim no)
-		(at 239.268 104.14 0)
+		(at 234.696 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4562,7 +4562,7 @@
 	)
 	(text "TIMEPULSE can only source/sink 2mA."
 		(exclude_from_sim no)
-		(at 237.236 109.22 0)
+		(at 232.918 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9366,6 +9366,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 58.42 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65d10f24-cbe3-43f8-a0f2-c7735bb2ed1b")
+		(property "Reference" "#PWR094"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21c56bc9-4a52-4d8e-a4b3-3f96acb54050")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 241.3 27.94 90)
 		(unit 1)
@@ -10788,6 +10854,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 58.42 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f8e30a1-ceb6-4a5f-931c-0cd5db1aeb86")
+		(property "Reference" "#PWR095"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa4b2c49-ae30-4816-85f3-7bb55ea33e53")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 48.26 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11326,15 +11458,15 @@
 		(fields_autoplaced yes)
 		(uuid "aa1487e0-f802-496b-af4f-136c329494a2")
 		(property "Reference" "R15"
-			(at 35.56 140.97 0)
+			(at 35.56 143.51 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 			)
 		)
-		(property "Value" "0402WGF1000TCE"
-			(at 35.56 143.51 0)
+		(property "Value" "100"
+			(at 35.56 144.78 0)
 			(effects
 				(font
 					(size 0.762 0.762)

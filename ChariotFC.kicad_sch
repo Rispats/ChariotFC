@@ -7257,6 +7257,12 @@
 		(uuid "0ac64f0b-fe82-406a-84fb-c912d2bf6a4a")
 	)
 	(junction
+		(at 147.32 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c58cfbc-1381-4b06-b255-0af65d07a4eb")
+	)
+	(junction
 		(at 223.52 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7381,6 +7387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55c89cc4-59a2-4608-9ea0-8554bc87795d")
+	)
+	(junction
+		(at 147.32 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57986b3d-e4ea-485a-9a6b-1eba2b44727f")
 	)
 	(junction
 		(at 153.67 190.5)
@@ -8232,6 +8244,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 190.5) (xy 153.67 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9e8e02-96f4-4e79-a9b5-12f97b89a3c5")
+	)
+	(wire
+		(pts
 			(xy 27.94 156.21) (xy 31.75 156.21)
 		)
 		(stroke
@@ -8742,7 +8764,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 190.5) (xy 153.67 190.5)
+			(xy 140.97 190.5) (xy 147.32 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9122,13 +9144,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 180.34) (xy 153.67 180.34)
+			(xy 140.97 180.34) (xy 147.32 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2dc4b6b-ed96-4075-9457-6c0bee986bc9")
+	)
+	(wire
+		(pts
+			(xy 147.32 180.34) (xy 153.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f390ef79-e908-4f17-93b6-1cb2dea15260")
 	)
 	(wire
 		(pts
@@ -10126,28 +10158,6 @@
 			)
 		)
 	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 129.54 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "b735eb0a-00d8-4fa8-9886-1ec1a250efeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.8218 72.39 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDIO_CMD"
 		(shape input)
 		(at 165.1 90.17 0)
@@ -10271,6 +10281,28 @@
 		(uuid "c94f18e5-95a0-4c13-b3ca-8c3a89ab5140")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.1466 138.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RST}"
+		(shape input)
+		(at 129.54 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "c9c274ce-d41f-4af1-be8d-7f2f63aec36a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.8218 80.01 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10858,6 +10890,71 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f88f8de-02b3-46ba-9f0e-b3c28500bd7e")
+		(property "Reference" "#PWR091"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.894 69.342 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04cdac61-1e49-4bd0-84a2-87c4152b1149")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -12269,6 +12366,84 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:CL05B104KO5NNNC")
+		(at 147.32 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40211482-dd8f-4d31-bd7e-094555d79df6")
+		(property "Reference" "C40"
+			(at 151.13 184.1499 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 148.59 187.198 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 134.62 185.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d066401-6744-47ef-bcd7-85cbb59b1609")
+		)
+		(pin "1"
+			(uuid "d95d0080-101d-4cf6-8653-832294459cfb")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
 		(at 228.6 146.05 0)
 		(unit 1)
@@ -12459,6 +12634,71 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 129.54 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41c234a0-3049-48fa-8cb9-a7eec5be8c4c")
+		(property "Reference" "#PWR093"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.81 61.722 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f614d034-6162-4444-93a4-d7b0d61b05ba")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -14765,7 +15005,7 @@
 		(dnp no)
 		(uuid "7248edbc-5e20-4eb0-a8ec-afc53c48b4f4")
 		(property "Reference" "C7"
-			(at 106.68 91.44 0)
+			(at 105.156 90.678 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -17363,7 +17603,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c056e95f-32f2-4a3a-993d-c4b52007567a")
 		(property "Reference" "C5"
 			(at 144.78 184.1499 90)
@@ -17375,7 +17614,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 144.78 186.6899 90)
+			(at 141.224 186.944 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19844,6 +20083,71 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb"
 					(reference "SIM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcc2d7e3-19fa-4ae0-b300-747f1fa34252")
+		(property "Reference" "#PWR092"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.476 107.442 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e6c5244-c6b4-4eaa-8e5b-939b456e99b9")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
