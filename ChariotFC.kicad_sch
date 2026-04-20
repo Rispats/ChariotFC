@@ -522,6 +522,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Resistors:0402,1kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C11702"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "13226393"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402WGF1001TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "1kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,1kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,1kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Resistors:0402,22Ω"
 			(pin_numbers
 				(hide yes)
@@ -1427,150 +1697,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:0402CG330J500NT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0402CG330J500NT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_33pF-330-5-50V_C1562.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C1562"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402CG330J500NT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4089,6 +4215,150 @@
 				(pin unspecified line
 					(at 5.08 0 180)
 					(length 0.762)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:C1005C0G1H270JT000F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C1005C0G1H270JT000F"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C445761"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C1005C0G1H270JT000F_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -7112,7 +7382,7 @@
 	)
 	(rectangle
 		(start 73.66 25.4)
-		(end 107.95 54.61)
+		(end 113.665 54.61)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -7247,12 +7517,6 @@
 		(uuid "c3a06328-594c-4488-922d-37514d53b61e")
 	)
 	(junction
-		(at 96.52 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01ee0e24-3bb7-48fb-a22f-eeae45dbaab8")
-	)
-	(junction
 		(at 254 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7293,12 +7557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bdf2130-f837-41ee-b3cf-a3ec52ed5b19")
-	)
-	(junction
-		(at 85.09 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d9c54ee-7709-403b-a477-3b6329274c19")
 	)
 	(junction
 		(at 140.97 180.34)
@@ -7385,10 +7643,22 @@
 		(uuid "520a7938-41a7-4816-81b8-6ed7958707b5")
 	)
 	(junction
+		(at 96.52 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52efd71a-2144-42f9-af6a-bc16e13ce78e")
+	)
+	(junction
 		(at 201.93 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "532ec6e2-0232-45d3-937f-82608b8d8653")
+	)
+	(junction
+		(at 85.09 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5518da36-319d-4e35-98c3-7dd9146f4737")
 	)
 	(junction
 		(at 115.57 85.09)
@@ -8204,6 +8474,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 38.1) (xy 97.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447959bb-7162-42c6-8a3c-70ec9f7eca87")
+	)
+	(wire
+		(pts
 			(xy 115.57 95.25) (xy 119.38 95.25)
 		)
 		(stroke
@@ -8821,16 +9101,6 @@
 			(type default)
 		)
 		(uuid "c4e0e5d6-cb51-4f2e-88e7-b835aaea2df3")
-	)
-	(wire
-		(pts
-			(xy 96.52 38.1) (xy 99.06 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c54adb44-151d-4eab-9e28-0bbb665328ab")
 	)
 	(wire
 		(pts
@@ -10100,7 +10370,7 @@
 		)
 		(uuid "955ff5d5-ef84-4221-bf7c-78858be2a0bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.8445 38.1 0)
+			(at 74.9528 38.1 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10266,7 +10536,7 @@
 	)
 	(global_label "HEXT_OUT"
 		(shape input)
-		(at 99.06 38.1 0)
+		(at 105.41 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10276,7 +10546,7 @@
 		)
 		(uuid "bac85858-0075-4041-a6cc-468c5f1ff547")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8502 38.1 0)
+			(at 115.2002 38.1 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10574,7 +10844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 45.72 0)
+		(at 85.09 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10583,7 +10853,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a681f55-3fec-4d1f-ab3c-8ef19e0fa50c")
 		(property "Reference" "#PWR017"
-			(at 85.09 52.07 0)
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10592,7 +10862,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 50.8 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10600,7 +10870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 45.72 0)
+			(at 85.09 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10609,7 +10879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 45.72 0)
+			(at 85.09 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10618,7 +10888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 45.72 0)
+			(at 85.09 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10852,84 +11122,6 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0402CG330J500NT")
-		(at 96.52 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f87f5f0-2785-401b-b730-3a6fcebdc86e")
-		(property "Reference" "C7"
-			(at 99.822 43.18 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 99.568 41.148 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 88.9 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_33pF-330-5-50V_C1562.html"
-			(at 86.36 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C1562"
-			(at 83.82 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "038d684f-84ad-4fc0-86df-b7c106213d48")
-		)
-		(pin "2"
-			(uuid "024f8f5e-1ead-43c1-aafb-3daaae2495a6")
-		)
-		(instances
-			(project "ChariotFC"
-				(path "/f9038082-7277-4432-8261-819b532197cb"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11513,84 +11705,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0402CG330J500NT")
-		(at 85.09 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c8e3dbe-3edb-4fc1-9265-e7d5fa37e0df")
-		(property "Reference" "C6"
-			(at 79.756 43.18 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 78.994 41.402 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 77.47 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_33pF-330-5-50V_C1562.html"
-			(at 74.93 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C1562"
-			(at 72.39 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dfd6b72-53ab-4d26-b55c-47e5360d2319")
-		)
-		(pin "2"
-			(uuid "36c61132-1ae1-4f3f-9b54-1f75f9ee3d4f")
-		)
-		(instances
-			(project "ChariotFC"
-				(path "/f9038082-7277-4432-8261-819b532197cb"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:NCP167BMX330TBG")
 		(at 214.63 110.49 180)
 		(unit 1)
@@ -11968,6 +12082,84 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb"
 					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:C1005C0G1H270JT000F")
+		(at 96.52 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33f6caeb-ecfa-4689-946a-7431e766d7e0")
+		(property "Reference" "C42"
+			(at 99.314 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "27uF"
+			(at 98.298 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C445761"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b59a1020-47c3-4c9e-be19-91853a5d1cc9")
+		)
+		(pin "1"
+			(uuid "5335d405-a49e-4a60-a59a-9faebd48c43f")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -15047,7 +15239,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 45.72 0)
+		(at 96.52 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15056,7 +15248,7 @@
 		(fields_autoplaced yes)
 		(uuid "7316fe24-08ce-4abd-b0fa-81c5536de070")
 		(property "Reference" "#PWR018"
-			(at 96.52 52.07 0)
+			(at 96.52 54.61 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15065,7 +15257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 50.8 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15073,7 +15265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 45.72 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15082,7 +15274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 45.72 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15091,7 +15283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 45.72 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15548,6 +15740,228 @@
 				(path "/f9038082-7277-4432-8261-819b532197cb"
 					(reference "R2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,1kΩ")
+		(at 101.6 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b803673-a10b-4c3f-822c-e808191c06fb")
+		(property "Reference" "R26"
+			(at 101.6 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 101.6 38.1 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 101.6 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "13226393"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1001TCE"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1kΩ"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e704549-7867-4b2b-a3f9-03d6c13c0bdd")
+		)
+		(pin "1"
+			(uuid "09c7d20e-1c1d-432b-aefd-ca39054d5ca9")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb"
+					(reference "R26")
+					(unit 1)
 				)
 			)
 		)
@@ -19272,6 +19686,84 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb"
 					(reference "USBC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:C1005C0G1H270JT000F")
+		(at 85.09 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f082c30f-18f5-4a70-88aa-b3440f95f717")
+		(property "Reference" "C41"
+			(at 77.978 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "27uF"
+			(at 78.994 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C445761"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76ec3e62-9ade-411b-9d07-e4c0a08d9015")
+		)
+		(pin "1"
+			(uuid "e6da042f-376a-46ec-b9a2-9561a39a0434")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb"
+					(reference "C41")
 					(unit 1)
 				)
 			)

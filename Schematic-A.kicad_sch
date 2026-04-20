@@ -4506,7 +4506,7 @@
 	)
 	(rectangle
 		(start 17.78 20.32)
-		(end 100.33 57.15)
+		(end 100.33 61.595)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -4618,6 +4618,16 @@
 		)
 		(uuid "ca969fea-cea2-41e4-8743-1f896f6cfe0a")
 	)
+	(text "Pull-ups on I2C data lines:\n2.7k for <10cm\n10k for <5cm"
+		(exclude_from_sim no)
+		(at 58.42 56.134 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "d4865673-f39a-4f01-b10c-dc9d5b6114d2")
+	)
 	(text "SWD\n"
 		(exclude_from_sim no)
 		(at 104.394 117.856 0)
@@ -4679,6 +4689,12 @@
 		(uuid "25e1091a-df68-452a-ac64-239abcc22d2d")
 	)
 	(junction
+		(at 24.13 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27198d70-585f-4e4f-baa0-e12471250848")
+	)
+	(junction
 		(at 38.1 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4697,22 +4713,16 @@
 		(uuid "339bcc82-8148-4ba9-b30e-7c9b509993ef")
 	)
 	(junction
+		(at 24.13 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e89c59-84f7-4d52-ac57-6b720cdb3d68")
+	)
+	(junction
 		(at 33.02 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38511f98-1e9c-49b0-8a3e-c1215418bdb8")
-	)
-	(junction
-		(at 24.13 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4159bf2a-c266-4ee6-b499-028503c36d4f")
-	)
-	(junction
-		(at 92.71 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "434f5672-4c02-4a23-80f1-211b7e916afa")
 	)
 	(junction
 		(at 87.63 49.53)
@@ -4773,12 +4783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "872c35cc-86f9-43bd-ac20-5f34076fa8ac")
-	)
-	(junction
-		(at 24.13 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ca45607-7248-49e2-a5c5-93b7e4a5b7b3")
 	)
 	(junction
 		(at 38.1 93.98)
@@ -5324,16 +5328,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 29.21 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca57022-1bf4-4b50-beee-eb1cbbbeabe9")
-	)
-	(wire
-		(pts
 			(xy 137.16 86.36) (xy 137.16 88.9)
 		)
 		(stroke
@@ -5444,16 +5438,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 39.37) (xy 29.21 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c861cab-0075-412b-a3fe-90b833a6edda")
-	)
-	(wire
-		(pts
 			(xy 92.71 49.53) (xy 92.71 46.99)
 		)
 		(stroke
@@ -5534,6 +5518,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 39.37) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26a4ae0-e9e6-4162-8e2d-8ad10ad56ab4")
+	)
+	(wire
+		(pts
 			(xy 180.34 34.29) (xy 180.34 39.37)
 		)
 		(stroke
@@ -5541,16 +5535,6 @@
 			(type default)
 		)
 		(uuid "b29c0794-9545-4759-8011-77700b1b7d77")
-	)
-	(wire
-		(pts
-			(xy 92.71 22.86) (xy 92.71 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba885eab-0a96-41fd-b0ce-b0cb3d07e866")
 	)
 	(wire
 		(pts
@@ -5641,16 +5625,6 @@
 			(type default)
 		)
 		(uuid "db60edcf-7e74-409e-94b0-1ea6591940d5")
-	)
-	(wire
-		(pts
-			(xy 29.21 22.86) (xy 92.71 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd66f5c7-a518-43bf-9dd3-d205ba59f2bd")
 	)
 	(wire
 		(pts
@@ -7988,7 +7962,7 @@
 		(fields_autoplaced yes)
 		(uuid "44742ea1-59ac-47f7-b7ec-e2f709649435")
 		(property "Reference" "BUZZER1"
-			(at 72.39 134.6199 0)
+			(at 72.39 135.255 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7997,7 +7971,7 @@
 			)
 		)
 		(property "Value" "MLT-7525"
-			(at 72.39 137.1599 0)
+			(at 72.39 136.525 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8057,6 +8031,72 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "BUZZER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 34.29 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44c0cc07-fdd9-4ffb-b9b4-4897c9aa4564")
+		(property "Reference" "#PWR027"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SENSORS"
+			(at 30.48 35.56 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 39.37 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 39.37 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 34.29 39.37 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "092eba3e-46f6-4d83-9599-361c82ffe289")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10151,6 +10191,201 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
+		(at 24.13 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f7c5be4-8bf6-4e8c-bf92-cae916dda1f8")
+		(property "Reference" "C22"
+			(at 25.4 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 22.352 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7021828"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A105KA5NQNC"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "25V"
+			(at 26.67 40.64 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1uF"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f29fcde0-9994-4bd8-8065-77779b0792e0")
+		)
+		(pin "2"
+			(uuid "a1de8364-1f4f-4c1d-aac1-80e393025144")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 138.43 140.97 270)
 		(unit 1)
@@ -11681,6 +11916,202 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
+		(at 92.71 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6802ba9-ec3e-47fe-a606-a1a8b4b00d89")
+		(property "Reference" "C25"
+			(at 95.25 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 90.932 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7021828"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A105KA5NQNC"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "25V"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1uF"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2ac11d-d234-4d9f-8319-f976d5406ccd")
+		)
+		(pin "2"
+			(uuid "17b8d348-248c-418d-b7c5-1070b29f42c6")
+		)
+		(instances
+			(project "ChariotFC"
+				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 31.75 270)
 		(unit 1)
@@ -12207,203 +12638,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 24.13 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c632a604-0601-4b19-835a-78058f3e244a")
-		(property "Reference" "C22"
-			(at 26.67 35.5599 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 26.67 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 22.352 38.1 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "20208285"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05B104KO5NNNC"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "16V"
-			(at 26.67 40.64 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5dec50f-623e-487d-a70e-3dd15a366043")
-		)
-		(pin "1"
-			(uuid "3a61d8be-bb76-470d-8f8f-69da792e9450")
-		)
-		(instances
-			(project "ChariotFC"
-				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:MMC5983MA")
 		(at 59.69 40.64 0)
 		(unit 1)
@@ -12584,202 +12818,6 @@
 			(project "ChariotFC"
 				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
 					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 92.71 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5dc9394-f6ba-4346-854e-5b0a61bcf8eb")
-		(property "Reference" "C25"
-			(at 94.488 44.704 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 94.488 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 90.932 43.18 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "20208285"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05B104KO5NNNC"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "16V"
-			(at 95.25 45.72 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8debfc69-8fb6-4d86-b01f-c8e2dcae9913")
-		)
-		(pin "1"
-			(uuid "d5d47448-54e2-411b-8fdb-6b9120e5b06d")
-		)
-		(instances
-			(project "ChariotFC"
-				(path "/f9038082-7277-4432-8261-819b532197cb/27820f9d-3ddc-4a6b-9676-8f0d962bdc04"
-					(reference "C25")
 					(unit 1)
 				)
 			)
